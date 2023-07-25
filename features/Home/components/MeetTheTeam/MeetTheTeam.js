@@ -10,7 +10,7 @@ const MeetTheTeam = () => {
         <Text fontSize="2xl" fontWeight="light" marginTop="1rem" marginBottom="3rem" paddingX="2rem" textAlign="center">
         The best in the industry, at your service 24/7
         </Text>
-        <Flex direction={{base:"column", sm:"row"}} justifyContent="space-between" gap="1.5rem">
+        <Flex direction={{base:"column", sm:"column" , md:"row"}} justifyContent="space-between" gap="1.5rem">
             {agents.map((agent) => (
                     <AgentCards key={agent.name} {...agent}/>
                
