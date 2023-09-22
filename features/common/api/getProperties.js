@@ -10,7 +10,7 @@ export const getProperties = async(num)=> {
             sort: 'city-level-score',
             hasVideo: true,
             hasFloorPlan: true,
-            haPanorama: true
+            hasPanorama: true
           }
     });
     return data.hits;
